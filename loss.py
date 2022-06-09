@@ -3,8 +3,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-
-
 def loss_cline(input,target,alpha= 0.4,gamma = 2):
     input = torch.squeeze(input)
     BCE_loss = F.binary_cross_entropy_with_logits(input, target, reduction='none')
