@@ -2,7 +2,7 @@
 
 Workspace for 2022L WB Transfer Learning
 
-*Authors: Andrzej Pióro, Mikołaj Spytek MiNI, Kinga Ułasik MiNI*
+*Authors: Andrzej Pióro, Mikołaj Spytek, Kinga Ułasik*
 
 ## Abstract
 Multitask learning is a developing field of knowledge transfer used for solving multiple dependent tasks. It proves itself helpful in medical applications where various tasks are based on common features, and their combination may improve results. In the "MSC-Net: Multitask Learning Network for Retinal Vessel Segmentation and Centerline Extraction" paper, an architecture based on a cross-stitch network was presented and used for automatic segmentation and centerline extraction of blood vessels from retinal fundus images. We challenged ourselves to reproduce the architecture depicted in the mentioned paper and compare our results to those reported by the authors.
